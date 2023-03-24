@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 680px;
+  color: #fff;
+}
+
+.main {
+  background-color: #23252C;
+  height: 320px;
+}
+
+.email {
+  font-size: 11px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.top-info {
+  text-align: center;
+}
+
+.top-info > h3 {
+  color: #f3bf99;
+  margin-top: 2px;
+  font-size: 12.8px;
+  margin-bottom: 4px;
+}
+
+p {
+  font-size: 12px;
+  margin: 0 30px;
+
+}
+
+.about > h3, .interests > h3 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0 30px;
+}
+
+.about, .interests {
+  text-align: start;
+  margin: 25px 0;
+}
+
+.interests {
+  text-align: start;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #161619;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.facebook, .github, .instagram, .linkedin {
+  width: 25px;
+  height: 25px;
+}
+
+.facebook:hover, .github:hover, .instagram:hover, .linkedin:hover {
+  opacity: 0.7;
+}
